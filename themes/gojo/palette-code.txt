@@ -1,0 +1,80 @@
+- Tailwind
+
+{ 'majorelle_blue': { DEFAULT: '#5959F3', 100: '#04043e', 200: '#09097c', 300: '#0d0dba', 400: '#1a1aef', 500: '#5959f3', 600: '#7979f6', 700: '#9b9bf8', 800: '#bcbcfa', 900: '#dedefd' }, 'lavender_(floral)': { DEFAULT: '#B987E9', 100: '#260b3e', 200: '#4b177c', 300: '#7122ba', 400: '#9548dd', 500: '#b987e9', 600: '#c79eed', 700: '#d5b7f2', 800: '#e3cff6', 900: '#f1e7fb' }, 'licorice': { DEFAULT: '#1C040A', 100: '#050102', 200: '#0b0204', 300: '#100206', 400: '#150308', 500: '#1c040a', 600: '#6f1028', 700: '#c31c45', 800: '#e7577b', 900: '#f3abbd' }, 'periwinkle': { DEFAULT: '#C6D4FA', 100: '#071b53', 200: '#0e37a5', 300: '#2257ec', 400: '#7496f3', 500: '#c6d4fa', 600: '#d2ddfb', 700: '#dde5fc', 800: '#e8eefd', 900: '#f4f6fe' }, 'ultramarine': { DEFAULT: '#28078A', 100: '#08011b', 200: '#100336', 300: '#180451', 400: '#1f066d', 500: '#28078a', 600: '#3b0bcd', 700: '#5f2ef4', 800: '#9573f8', 900: '#cab9fb' } }
+
+- CSV
+
+5959F3,B987E9,1C040A,C6D4FA,28078A
+
+- With #
+
+#5959F3, #B987E9, #1C040A, #C6D4FA, #28078A
+
+- Array
+
+["5959F3","B987E9","1C040A","C6D4FA","28078A"]
+
+- Object
+
+{"Majorelle Blue":"5959F3","Lavender (floral)":"B987E9","Licorice":"1C040A","Periwinkle":"C6D4FA","Ultramarine":"28078A"}
+
+- Extended Array
+
+[{"name":"Majorelle Blue","hex":"5959F3","rgb":[89,89,243],"cmyk":[63,63,0,5],"hsb":[240,63,95],"hsl":[240,87,65],"lab":[47,45,-77]},{"name":"Lavender (floral)","hex":"B987E9","rgb":[185,135,233],"cmyk":[21,42,0,9],"hsb":[271,42,91],"hsl":[271,69,72],"lab":[65,38,-42]},{"name":"Licorice","hex":"1C040A","rgb":[28,4,10],"cmyk":[0,86,64,89],"hsb":[345,86,11],"hsl":[345,75,6],"lab":[3,10,1]},{"name":"Periwinkle","hex":"C6D4FA","rgb":[198,212,250],"cmyk":[21,15,0,2],"hsb":[224,21,98],"hsl":[224,84,88],"lab":[85,3,-20]},{"name":"Ultramarine","hex":"28078A","rgb":[40,7,138],"cmyk":[71,95,0,46],"hsb":[255,95,54],"hsl":[255,90,28],"lab":[18,49,-63]}]
+
+- XML
+
+<palette>
+  <color name="Majorelle Blue" hex="5959F3" r="89" g="89" b="243" />
+  <color name="Lavender (floral)" hex="B987E9" r="185" g="135" b="233" />
+  <color name="Licorice" hex="1C040A" r="28" g="4" b="10" />
+  <color name="Periwinkle" hex="C6D4FA" r="198" g="212" b="250" />
+  <color name="Ultramarine" hex="28078A" r="40" g="7" b="138" />
+</palette>
+
+
+/* CSS HEX */
+--majorelle-blue: #5959F3ff;
+--lavender-floral: #B987E9ff;
+--licorice: #1C040Aff;
+--periwinkle: #C6D4FAff;
+--ultramarine: #28078Aff;
+
+/* CSS HSL */
+--majorelle-blue: hsla(240, 87%, 65%, 1);
+--lavender-floral: hsla(271, 69%, 72%, 1);
+--licorice: hsla(345, 75%, 6%, 1);
+--periwinkle: hsla(224, 84%, 88%, 1);
+--ultramarine: hsla(255, 90%, 28%, 1);
+
+/* SCSS HEX */
+$majorelle-blue: #5959F3ff;
+$lavender-floral: #B987E9ff;
+$licorice: #1C040Aff;
+$periwinkle: #C6D4FAff;
+$ultramarine: #28078Aff;
+
+/* SCSS HSL */
+$majorelle-blue: hsla(240, 87%, 65%, 1);
+$lavender-floral: hsla(271, 69%, 72%, 1);
+$licorice: hsla(345, 75%, 6%, 1);
+$periwinkle: hsla(224, 84%, 88%, 1);
+$ultramarine: hsla(255, 90%, 28%, 1);
+
+/* SCSS RGB */
+$majorelle-blue: rgba(89, 89, 243, 1);
+$lavender-floral: rgba(185, 135, 233, 1);
+$licorice: rgba(28, 4, 10, 1);
+$periwinkle: rgba(198, 212, 250, 1);
+$ultramarine: rgba(40, 7, 138, 1);
+
+/* SCSS Gradient */
+$gradient-top: linear-gradient(0deg, #5959F3ff, #B987E9ff, #1C040Aff, #C6D4FAff, #28078Aff);
+$gradient-right: linear-gradient(90deg, #5959F3ff, #B987E9ff, #1C040Aff, #C6D4FAff, #28078Aff);
+$gradient-bottom: linear-gradient(180deg, #5959F3ff, #B987E9ff, #1C040Aff, #C6D4FAff, #28078Aff);
+$gradient-left: linear-gradient(270deg, #5959F3ff, #B987E9ff, #1C040Aff, #C6D4FAff, #28078Aff);
+$gradient-top-right: linear-gradient(45deg, #5959F3ff, #B987E9ff, #1C040Aff, #C6D4FAff, #28078Aff);
+$gradient-bottom-right: linear-gradient(135deg, #5959F3ff, #B987E9ff, #1C040Aff, #C6D4FAff, #28078Aff);
+$gradient-top-left: linear-gradient(225deg, #5959F3ff, #B987E9ff, #1C040Aff, #C6D4FAff, #28078Aff);
+$gradient-bottom-left: linear-gradient(315deg, #5959F3ff, #B987E9ff, #1C040Aff, #C6D4FAff, #28078Aff);
+$gradient-radial: radial-gradient(#5959F3ff, #B987E9ff, #1C040Aff, #C6D4FAff, #28078Aff);
